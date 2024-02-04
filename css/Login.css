@@ -1,0 +1,35 @@
+body{
+    background-image: url("../imgs/back.avif");
+    background-size: cover;
+}
+
+.container {
+    box-shadow:  -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    width: 50%;
+    background-color: #615f51;
+}
+h1{
+    color: #17A2B8;
+}
+input{
+    color: #fff !important;
+}
+input::placeholder{
+    color: #B6B6B6 !important; 
+}
+button{
+    border: 1px solid #17A2B8 !important;
+    color: #17A2B8 !important;
+    transition: 0.5s all !important;
+}
+
+button:hover{
+    background-color: #17A2B8 !important;
+    color: #fff !important;
+}
+
+a:hover{
+    text-decoration: underline !important;
+    padding: 0px;
+    margin: 0px;
+}

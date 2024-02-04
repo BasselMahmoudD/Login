@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login test</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- BootStrap style -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Main css -->
+    <link rel="stylesheet" href="./css/Login.css">
+</head>
+
+<body>
+    <div class="container text-center my-5 py-4">
+        <div class="title my-3">
+            <h1>Smart Login System</h1>
+        </div>
+        <div class="content w-100">
+            <div class="inputs p-3">
+                <input id="email" type="email" name="Email" class="form-control bg-transparent my-3"
+                    placeholder="Enter Your Email">
+                <input id="pass" type="password" name="Pass" class="form-control bg-transparent my-3"
+                    placeholder="Enter Your Password">
+            </div>
+            <p class="text-danger d-none" id="emailErr">Wrong Email</p>
+            <p class="text-danger d-none" id="passErr">Wrong Password</p>
+            <div class="btn w-100 my-2">
+                <button id="logBtn" class="btn w-100 bg-transparent">Login</button>
+            </div>
+            <div class="text d-flex justify-content-center align-items-baseline">
+                <p class="mx-1 text-light">Don’t have an account?</p>
+                <a id="link" role="button" class="text-light text-decoration-none ">Sign Up</a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Js Bootstrap -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- Main js -->
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

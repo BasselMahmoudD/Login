@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login test</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../css/all.min.css">
+    <!-- BootStrap style -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- Main css -->
+    <link rel="stylesheet" href="../css/signUp.css">
+</head>
+<body>
+    <div class="container text-center my-5 py-4">
+        <div class="title my-3">
+            <h1>Smart Login System</h1>
+        </div>
+        <div class="content w-100">
+            <div class="inputs p-3">
+                <input id="userName" oninput="nameValidation()"  type="text" name="name" class="form-control bg-transparent my-3" placeholder="Enter Your Name" >
+                <input id="userEmail" oninput="emailValidation()" type="email" name="Email" class="form-control bg-transparent my-3" placeholder="Enter Your Email" >
+                <input id="userPass" oninput="passValidation()" type="password" name="Pass" class="form-control bg-transparent my-3" placeholder="Enter Your Password">
+                <p id="alertF" class="text-danger d-none">Incorrect Input</p>
+                <p id="alertR" class="text-danger d-none">Email is exist</p>
+                <p id="alertT" class="text-success d-none ">Success</p>
+            </div>
+            
+            <div class="btn w-100 my-2">
+                <button onclick="addUser()" id="signupBtn" class="btn w-100 bg-transparent">Sign Up</button>
+            </div>
+            <div class="text d-flex justify-content-center align-items-baseline">
+                <p class="mx-1 text-light">Don’t have an account?</p>
+                <a id="link" role="button" class="text-light text-decoration-none ">SignIn</a>
+            </div>
+        </div>
+       
+    </div>
+
+
+    <!-- Js Bootstrap -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <!-- Main js -->
+    <script src="../js/signup.js"></script>
+</body>
+</html>

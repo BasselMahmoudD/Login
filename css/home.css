@@ -1,0 +1,28 @@
+body{
+    background-image: url("../imgs/back.avif");
+    background-size: cover;
+}
+
+nav{
+    background-color: #0f1516ca;
+}
+
+.container {
+    box-shadow:  -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    background-color: #E3E6C7;
+    padding: 80px !important;
+}   
+h1{
+    color: #000;
+}
+
+button{
+    border: 1px solid #17A2B8 !important;
+    color: #17A2B8 !important;
+    transition: 0.5s all !important;
+}
+
+button:hover{
+    background-color: #17A2B8 !important;
+    color: #fff !important;
+}
